@@ -1,0 +1,66 @@
+{
+  "catatan": "Cakupan, batas tanggung jawab, dan pengecualian mengikuti polis resmi. Hubungi kami untuk penjelasan dan penawaran sesuai kendaraan Anda.",
+  "perluasan": [
+    "Banjir, angin topan, badai, dan hujan es",
+    "Gempa bumi, tsunami, dan letusan gunung berapi",
+    "Huru-hara dan kerusuhan (RSMD)",
+    "Terorisme dan sabotase",
+    "Tanggung jawab hukum pihak ketiga (TJH)",
+    "Kecelakaan diri pengemudi dan penumpang (PA)"
+  ],
+  "produk": [
+    {
+      "id": "comprehensive",
+      "nama": "Comprehensive (All Risk)",
+      "ringkas": "Perlindungan paling lengkap untuk kerusakan sebagian maupun kehilangan total.",
+      "cocokUntuk": "Mobil baru atau bernilai tinggi yang ingin perlindungan maksimal",
+      "label": "Paling Lengkap",
+      "manfaat": [
+        "Kerusakan sebagian (partial loss) akibat tabrakan, benturan, dan terguling",
+        "Kerugian total (total loss) bila biaya perbaikan melebihi batas yang ditetapkan",
+        "Kehilangan akibat pencurian",
+        "Kebakaran, petir, dan ledakan",
+        "Perbaikan di bengkel rekanan"
+      ],
+      "fitur": {
+        "kerusakanSebagian": true,
+        "kerugianTotal": true,
+        "pencurian": true,
+        "kebakaran": true,
+        "bencanaAlam": "Dapat ditambahkan (perluasan)",
+        "tanggungJawabPihakKetiga": "Dapat ditambahkan (perluasan)",
+        "bengkelRekanan": true
+      }
+    },
+    {
+      "id": "tlo",
+      "nama": "Total Loss Only (TLO)",
+      "ringkas": "Perlindungan atas kerugian total dan kehilangan kendaraan dengan premi lebih ringan.",
+      "cocokUntuk": "Mobil dengan usia pakai lebih lama yang butuh proteksi risiko besar",
+      "label": "Premi Hemat",
+      "manfaat": [
+        "Kerugian total (total loss) bila biaya perbaikan melebihi batas yang ditetapkan",
+        "Kehilangan akibat pencurian",
+        "Kebakaran, petir, dan ledakan yang berakibat kerugian total"
+      ],
+      "fitur": {
+        "kerusakanSebagian": false,
+        "kerugianTotal": true,
+        "pencurian": true,
+        "kebakaran": true,
+        "bencanaAlam": "Dapat ditambahkan (perluasan)",
+        "tanggungJawabPihakKetiga": "Dapat ditambahkan (perluasan)",
+        "bengkelRekanan": false
+      }
+    }
+  ],
+  "baris": [
+    { "key": "kerusakanSebagian", "label": "Kerusakan sebagian (partial loss)" },
+    { "key": "kerugianTotal", "label": "Kerugian total (total loss)" },
+    { "key": "pencurian", "label": "Kehilangan akibat pencurian" },
+    { "key": "kebakaran", "label": "Kebakaran, petir, ledakan" },
+    { "key": "bencanaAlam", "label": "Banjir & bencana alam" },
+    { "key": "tanggungJawabPihakKetiga", "label": "Tanggung jawab hukum pihak ketiga" },
+    { "key": "bengkelRekanan", "label": "Perbaikan di bengkel rekanan" }
+  ]
+}
